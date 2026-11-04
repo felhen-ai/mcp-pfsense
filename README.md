@@ -128,7 +128,7 @@ That is the default: writes are staged (see **Safety**). Check with `get_pending
 ## Development
 
 ```bash
-git clone https://github.com/antonio-mello-ai/mcp-pfsense.git
+git clone https://github.com/felhen-ai/mcp-pfsense.git
 cd mcp-pfsense
 python -m venv .venv
 source .venv/bin/activate
@@ -146,4 +146,11 @@ mypy src/
 
 MIT
 
+<!-- mcp-name: io.github.felhen-ai/mcp-pfsense -->
 <!-- mcp-name: io.github.antonio-mello-ai/mcp-pfsense -->
+
+## Repository and registry compatibility
+
+The canonical repository is `https://github.com/felhen-ai/mcp-pfsense`. Existing GitHub clone and issue URLs redirect to this repository. Do not recreate a repository at the old address, which would remove those redirects.
+
+The canonical MCP Registry identifier is `io.github.felhen-ai/mcp-pfsense`. The legacy identifier `io.github.antonio-mello-ai/mcp-pfsense` remains supported with a separate `server.legacy.json` manifest. Both identifiers install the same `mcp-pfsense` package from PyPI, and the package name and CLI command remain unchanged. Keep both ownership markers in this README so future releases can be registered under either identifier.
